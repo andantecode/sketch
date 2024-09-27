@@ -2,3 +2,4 @@ checkpoints
 .git
 .pth
 trained
+.venv
