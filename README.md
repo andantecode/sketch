@@ -24,10 +24,12 @@
 
     - **sketch_predictor**: streamlit을 활용한 웹 프로토타입 코드   
 
-## 데이터 증강
+## 데이터 증강 실험
 
-1. 스케치 이미지에 적합하다고 판단한 affine 변환, ElasticTransform, Gaussian Noise, Motion Blur 등을 기본으로 사용했습니다.   
+1. Affine 변환, ElasticTransform, Gaussian Noise, Motion Blur 등을 기본으로 사용했습니다.   
 2. Mixup 및 Cutmix 확률로 적용하였습니다. (각 25% 확률)
+
+- 두 증강 모두 약간의 성능 향상을 보였습니다.
 
 ## 앙상블 실험
 
