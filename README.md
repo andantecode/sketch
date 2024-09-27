@@ -24,8 +24,6 @@
 
     - **sketch_predictor**: streamlit을 활용한 웹 프로토타입 코드   
 
-> dataset -> root, eva02convnext2_large_mixupcutmix_kfold checkpoints -> sketch 폴더에 위치시켜 실험 가능합니다.
-
 ## 데이터 증강
 
 1. 스케치 이미지에 적합하다고 판단한 affine 변환, ElasticTransform, Gaussian Noise, Motion Blur 등을 기본으로 사용했습니다.   
