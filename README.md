@@ -24,7 +24,7 @@
 
     - **sketch_predictor**: streamlit을 활용한 웹 프로토타입 코드   
 
-> dataset을 root 폴더에, eva02convnext2_large_mixupcutmix_kfold checkpoints 폴더를 sketch 폴더에 위치시켜 실험 가능합니다.
+> dataset -> root, eva02convnext2_large_mixupcutmix_kfold checkpoints -> sketch 폴더에 위치시켜 실험 가능합니다.
 
 ## 데이터 증강
 
@@ -50,5 +50,5 @@
 - 해당 앙상블은 큰 성능 향상을 보였습니다.
 
 ### 최종 모델
-ViT 기반의 가장 좋은 성능을 보인 eva02와 CNN 기반의 가장 좋은 성능을 보인 ConvNexTv2를 stacking하여 모델 구조를 설계하였고, 해당 모델을 K-Fold 기법을 활용해 5개의 모델로 학습하여 앙상블하여 추론하는 방식으로 진행하였습니다. 해당 모델의 노트북 코드는 experiments/ensemble 폴더에, 모듈화된 코드와 streamlit 코드는 sketch 폴더에 구현되어있습니다.
+* ViT 기반의 가장 좋은 성능을 보인 eva02와 CNN 기반의 가장 좋은 성능을 보인 ConvNexTv2를 stacking하여 모델 구조를 설계하였고, 해당 모델을 K-Fold 기법을 활용해 5개의 모델로 학습하여 앙상블하여 추론하는 방식으로 진행하였습니다. 해당 모델의 노트북 코드는 experiments/ensemble 폴더에, 모듈화된 코드와 streamlit 코드는 sketch 폴더에 구현되어있습니다.
 
